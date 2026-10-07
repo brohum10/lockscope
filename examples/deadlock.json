@@ -1,0 +1,4 @@
+{
+  "owners": {"inventory": "checkout", "billing": "refund", "queue": "worker"},
+  "waits": {"checkout": "billing", "refund": "inventory", "worker": "inventory"}
+}
